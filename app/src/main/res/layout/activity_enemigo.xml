@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:title="Actividad de Enemigo"
+        app:titleTextColor="@color/white"
+        app:menu="@menu/menuprincipal"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_launcher_foreground"
+        app:shapeAppearanceOverlay="@style/redondeado"/>
+
+    <Button
+        android:id="@+id/botonLucharEnemigo"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:background="@color/blue"
+        android:text="@string/botonLucharEnemigo"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/botonHuirEnemigo"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="@string/botonHuirEnemigo"
+        android:textColor="@color/white"
+        android:layout_marginTop="35dp"
+        android:background="@color/blue"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

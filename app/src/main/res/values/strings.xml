@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EjercicioAleatorizadorEventos</string>
+    <string name="textView1">Escoge los terrenos en donde quieres estar:</string>
+    <string name="textView2">Terrenos</string>
+    <string name="textView3">Comienza la aventura, pulsa el DADO para avanzar. CUIDADO puedes encontrarte enemigos</string>
+    <string name="botonRecogerObjeto">Recoger</string>
+    <string name="botonContinuarObjeto">Continuar</string>
+    <string name="botonEntrarCiudad">Entrar</string>
+    <string name="botonContinuarCiudad">Continuar</string>
+    <string name="botonComerciarMercader">Comerciar</string>
+    <string name="botonContinuarMercader">Continuar</string>
+    <string name="botonLucharEnemigo">Luchar</string>
+    <string name="botonHuirEnemigo">Huir</string>
+    <string-array name="Terrenos">
+        <item></item>
+        <item>Campo</item>
+        <item>Montaña</item>
+        <item>Cueva</item>
+    </string-array>
+</resources>
